@@ -38,40 +38,6 @@ General notes and suggestions for customizing Minimal Mistakes.
 
 ---
 
-## Folder Structure
-
-{% highlight text %}
-minimal-mistakes/
-├── _includes/
-|    ├── _author-bio.html        # bio stuff layout. pulls optional owner data from _config.yml
-|    ├── _browser-upgrade.html   # prompt to install a modern browser for < IE9
-|    ├── _footer.html            # site footer
-|    ├── _head.html              # site head
-|    ├── _navigation.html        # site top navigation
-|    └── _scripts.html           # site scripts
-├── _layouts/
-|    ├── home.html               # homepage layout
-|    ├── page.html               # page layout
-|    ├── post-index.html         # post index layout
-|    └── post.html               # single post layout
-├── _posts/                      # MarkDown formatted posts
-├── assets/
-|    ├── css/                    # site stylesheets
-|    ├── fonts/                  # webfonts
-|    ├── js/
-|    |   ├── _main.js            # main JavaScript file, plugin settings, etc
-|    |   ├── plugins/            # scripts and jQuery plugins to combine with _main.js
-|    |   ├── scripts.min.js      # concatenated and minified _main.js + plugin scripts
-|    |   └── vendor/             # vendor scripts to leave alone and load as is
-|    └── less/
-├── images/                      # images for posts and pages
-├── about.md                     # sample about page
-├── posts.md                     # sample post index page. lists all posts in reverse chronology
-└── index.md                     # sample homepage. lists 5 latest posts
-{% endhighlight %}
-
----
-
 ## Customization
 
 ### _config.yml
