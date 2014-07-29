@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Post with Images"
-description: "Examples and code for displaying images in posts."
+description: "My own example with images blabliblabla."
 tags: [sample post, images, test]
 comments: true
 ---
@@ -17,7 +17,7 @@ Here are some examples of what a post with images might look like. If you want t
 	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+Eine Demo für die Jungs.
 
 #### Two Up
 
@@ -39,7 +39,7 @@ And you'll get something that looks like this:
 	<figcaption>Two images.</figcaption>
 </figure>
 
-#### Three Up
+#### Three Up von Pascal
 
 Apply the `third` class like so to display three images side by side that share the same caption.
 
