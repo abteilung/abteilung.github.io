@@ -44,12 +44,32 @@ And you'll get something that looks like this:
 Apply the `third` class like so to display three images side by side that share the same caption.
 
 {% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
+config.tx_aloha {
+	topBar {
+		disable = 0
+		warningMessage.disable = 1
+		pageButtons {
+			edit.disable = {$tx_aloha.config.disablePageButtons.edit}
+			history.disable = {$tx_aloha.config.disablePageButtons.history}
+			newContentElement.disable = {$tx_aloha.config.disablePageButtons.newContentElement}
+			move.disable = {$tx_aloha.config.disablePageButtons.move}
+			newPage.disable = {$tx_aloha.config.disablePageButtons.newPage}
+		}
+	}
+	responsiveView {
+		buttons {
+			desktop.disable = 0
+			laptop.disable = 0
+			tablet.disable = 1
+			mobile {
+				disable = 1
+				// You can use this to set width interval for given view
+				#minWidth = 340px
+				#maxWidth = 340px
+			}
+		}
+	}
+}
 {% endhighlight %}
 
 And you'll get something that looks like this:
